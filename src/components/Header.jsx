@@ -3,7 +3,7 @@ import { useTheme } from '../context/ThemeContext'
 
 const Header = () => {
 
-  const {onOpenModal, isModalOpen} = useTheme()
+  const {onOpenModal} = useTheme()
 
   
 
